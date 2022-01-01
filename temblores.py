@@ -22,7 +22,7 @@ rows = tabla_sismos.find_all("tr")
 
 output_rows = []
 for row in rows:
-    # obtenemos todas las column
+    # obtenemos todas las columns
     cells = row.find_all("td")
     output_row = []
     if len(cells) > 0:
@@ -43,6 +43,7 @@ dataset.columns = [
 ]
 dataset[["Latitud", "Longitud"]] = dataset[["Latitud", "Longitud"]].apply(pd.to_numeric)
 
+
 dataset_filter = dataset[
     (-21.655 <= dataset["Latitud"])
     & (dataset["Latitud"] <= -19.370)
@@ -50,12 +51,10 @@ dataset_filter = dataset[
     & (dataset["Longitud"] <= -68.426)
 ]
 
-
-
 df = pd.read_csv("data_iqq.csv") #leer archivo data.csv
 
 
-con = pd.concat([dataset_filter,df]).astype({"Profundidad [Km]":float, "Latitud":float}) # concatenar dataset_filter y df, ademas cambia string a float las columnas Profundidad [Km] y Latitud
+con = pd.concat([dataset_filter, df]).astype({"Profundidad [Km]":float, "Latitud":float}) # concatenar dataset_filter y df, ademas cambia string a float las columnas Profundidad [Km] y Latitud
 
 con = con.drop_duplicates()
 
