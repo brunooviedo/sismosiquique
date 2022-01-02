@@ -1,0 +1,53 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Actualizar web
+
+on:
+  push:
+    branches:
+    - main
+    
+  schedule:
+  - cron: "*/15 * * * *"
+
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+        
+    - uses: actions/cache@v2
+      with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+            
+    # Instalando dependencias
+    - name: Instalando dependencias de Python
+      run: |
+        pip install -r requirements2.txt
+    - name: Test with pytest
+      run: |
+        python importfolium.py
+        
+    - name: Commit and push if it changed
+      run: |
+        git config user.name "brunooviedo"
+        git config user.email "bruno.oviedo89@gmail.com"
+        git add index.html areas.html head.html
+        timestamp=$(date -u)
+        git commit -F message.txt || exit 0
+        git push
