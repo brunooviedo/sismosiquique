@@ -1,1 +1,1 @@
-worker: python temblores.py
+Web: python temblores.py
