@@ -1,1 +1,1 @@
-Web: python temblores.py
+heroku ps:scale web=1 -a temblores.py
