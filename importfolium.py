@@ -77,7 +77,7 @@ for _, row in df.iterrows():
         
 
 folium.Marker(
-    [-24.397486, -69.161143], popup="<i>Coordenadas Tranque -24.397486, -72.161143</i>",
+    [-20.214066, -70.152465], popup="<i>iquique</i>",
     icon=folium.Icon(color="red",icon="home", prefix='fa'),
     tooltip=tooltip
 ).add_to(mapa1)
@@ -112,7 +112,7 @@ HeatMap(data=data[['Latitud', 'Longitud']], radius=15).add_to(mapa2)
 # ).add_to(mapa)
 
 folium.Marker(
-    [-24.397486, -69.161143], popup="<i>Coordenadas Tranque -24.397486, -72.161143</i>",
+    [-20.214066, -70.152465], popup="<i>Iquique</i>",
     icon=folium.Icon(color="red",icon="home", prefix='fa'),
 ).add_to(mapa)
 
