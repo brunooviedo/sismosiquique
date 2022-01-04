@@ -159,6 +159,6 @@ folium.Circle(
 ).add_to(mapa2)
  
         
-mapa1.save('/templates/mapa.html')
-mapa.save('/templates/areas.html')
-mapa2.save('/templates/head.html')
+mapa1.save('templates/mapa.html')
+mapa.save('templates/areas.html')
+mapa2.save('templates/head.html')
