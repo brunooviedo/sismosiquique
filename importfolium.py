@@ -57,7 +57,7 @@ mapa.add_child(mc)
 
 
     
-mapa1 = folium.Map([-24.093570, -69.298989], zoom_start=7,  tiles='Stamen Terrain',)
+mapa1 = folium.Map([-20.214066, -70.152465], zoom_start=7,  tiles='Stamen Terrain',)
 
 for _, row in df.iterrows():
 # for i in range(len(data)):
@@ -82,7 +82,7 @@ folium.Marker(
     tooltip=tooltip
 ).add_to(mapa1)
 
-mapa2 = folium.Map([-24.093570, -69.298989], zoom_start=7,  tiles='Stamen Terrain',)
+mapa2 = folium.Map([-20.214066, -70.152465], zoom_start=7,  tiles='Stamen Terrain',)
 
 
 
