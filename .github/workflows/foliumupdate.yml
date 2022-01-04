@@ -42,13 +42,13 @@ jobs:
     - name: Test with pytest
       run: |
         python importfolium.py
-        python graf3d.py
+     
         
     - name: Commit and push if it changed
       run: |
         git config user.name "brunooviedo"
         git config user.email "bruno.oviedo89@gmail.com"
-        git add mapa.html areas.html head.html magnitud.html
+        git add mapa.html areas.html head.html
         timestamp=$(date -u)
         git commit -F message.txt || exit 0
         git push
