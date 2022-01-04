@@ -44,7 +44,7 @@ jobs:
       run: |
         git config user.name "brunooviedo"
         git config user.email "bruno.oviedo89@gmail.com"
-        git add data_iqq.csv data_iquique.csv graf3d.html magnitud.html
+        git add .
         timestamp=$(date -u)
         git commit -F message.txt || exit 0
         git push
