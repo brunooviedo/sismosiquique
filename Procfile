@@ -1,2 +1,1 @@
-web: python temblores.py
-worker: python temblores.py
+web: gunicorn app:app
