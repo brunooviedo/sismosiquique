@@ -89,74 +89,74 @@ mapa2 = folium.Map([-20.214066, -70.152465], zoom_start=7,  tiles='Stamen Terrai
 # Your code here: Add a heatmap to the map
 HeatMap(data=data[['Latitud', 'Longitud']], radius=15).add_to(mapa2)
 
-folium.Circle(
-    radius=200000,
-    location=[-24.397486, -69.161143],
-    popup="Radio de 200 Kilometros",
-    color="red",
-    #fill=True,
-    opacity=0.5,
-    #fill_opacity=0.1,
-    #fill_color="red",
-).add_to(mapa)
+# folium.Circle(
+#     radius=200000,
+#     location=[-24.397486, -69.161143],
+#     popup="Radio de 200 Kilometros",
+#     color="red",
+#     #fill=True,
+#     opacity=0.5,
+#     #fill_opacity=0.1,
+#     #fill_color="red",
+# ).add_to(mapa)
 
-folium.Circle(
-    radius=300000,
-    location=[-24.397486, -69.161143],
-    popup="Radio de 300 Kilometros",
-    color="yellow",
-    #fill=True,
-    opacity=0.5,
-    #fill_opacity=0.1,
-    #fill_color="yellow",
-).add_to(mapa)
+# folium.Circle(
+#     radius=300000,
+#     location=[-24.397486, -69.161143],
+#     popup="Radio de 300 Kilometros",
+#     color="yellow",
+#     #fill=True,
+#     opacity=0.5,
+#     #fill_opacity=0.1,
+#     #fill_color="yellow",
+# ).add_to(mapa)
 
 folium.Marker(
     [-24.397486, -69.161143], popup="<i>Coordenadas Tranque -24.397486, -72.161143</i>",
     icon=folium.Icon(color="red",icon="home", prefix='fa'),
 ).add_to(mapa)
 
-folium.Circle(
-    radius=200000,
-    location=[-24.397486, -69.161143],
-    popup="Radio de 200 Kilometros",
-    color="red",
-    #fill=True,
-    opacity=0.5,
-    #fill_opacity=0.1,
-    #fill_color="red",
-).add_to(mapa1)
-folium.Circle(
-    radius=300000,
-    location=[-24.397486, -69.161143],
-    popup="Radio de 300 Kilometros",
-    color="yellow",
-    #fill=True,
-    opacity=0.5,
-    #fill_opacity=0.1,
-    #fill_color="yellow",
-).add_to(mapa1)
+# folium.Circle(
+#     radius=200000,
+#     location=[-24.397486, -69.161143],
+#     popup="Radio de 200 Kilometros",
+#     color="red",
+#     #fill=True,
+#     opacity=0.5,
+#     #fill_opacity=0.1,
+#     #fill_color="red",
+# ).add_to(mapa1)
+# folium.Circle(
+#     radius=300000,
+#     location=[-24.397486, -69.161143],
+#     popup="Radio de 300 Kilometros",
+#     color="yellow",
+#     #fill=True,
+#     opacity=0.5,
+#     #fill_opacity=0.1,
+#     #fill_color="yellow",
+# ).add_to(mapa1)
 
-folium.Circle(
-    radius=200000,
-    location=[-24.397486, -69.161143],
-    popup="Radio de 200 Kilometros",
-    color="red",
-    #fill=True,
-    opacity=0.5,
-    #fill_opacity=0.1,
-    #fill_color="red",
-).add_to(mapa2)
-folium.Circle(
-    radius=300000,
-    location=[-24.397486, -69.161143],
-    popup="Radio de 300 Kilometros",
-    color="yellow",
-    #fill=True,
-    opacity=0.5,
-    #fill_opacity=0.1,
-    #fill_color="yellow",
-).add_to(mapa2)
+# folium.Circle(
+#     radius=200000,
+#     location=[-24.397486, -69.161143],
+#     popup="Radio de 200 Kilometros",
+#     color="red",
+#     #fill=True,
+#     opacity=0.5,
+#     #fill_opacity=0.1,
+#     #fill_color="red",
+# ).add_to(mapa2)
+# folium.Circle(
+#     radius=300000,
+#     location=[-24.397486, -69.161143],
+#     popup="Radio de 300 Kilometros",
+#     color="yellow",
+#     #fill=True,
+#     opacity=0.5,
+#     #fill_opacity=0.1,
+#     #fill_color="yellow",
+# ).add_to(mapa2)
  
         
 mapa1.save('templates/mapa.html')
