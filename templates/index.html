@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+<center><h1>Desplegando Mapas Folium <b>Sector Minera Escondida</b>!</h1></center>
+
+<div class="contenedor">
+
+    <!-- <h2>Mapa de calor</h2> -->
+
+<iframe src="{{ url_for('head') }}" height="500" width="450"></iframe>
+
+    <!-- <h2>Mapa de Puntos</h2> -->
+
+<iframe src="{{ url_for('mapa') }}" height="500" width="450"></iframe>
+
+    <!-- <h2>Mapa de Areas</h2> -->
+
+<iframe src="{{ url_for('areas') }}" height="500" width="450"></iframe>
+
+    <!-- <h2>Mapa 3D Porfundidad</h2> -->
+
+<iframe src="{{ url_for('graf3d') }}" height="500" width="690"></iframe>
+
+    <!-- <h2>Mapa de Magnitudes</h2> -->
+
+<iframe src="{{ url_for('magnitud') }}" height="500" width="690"></iframe>
+
+
+
+</div>
+
+<!-- <style>
+    h2{
+        position: absolute;}
+</style> -->
+
+<style>
+    iframe{
+        padding: 10px;
+    margin-bottom: 20px;}
+</style>
+
+<style>
+    body{width:100%;
+        margin:0px auto;}
+</style>
+
+<style>
+    .contenedor{width:95%;
+        margin:0px auto;}
+</style>
+
+</body>
+</html>
