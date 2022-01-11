@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_90ed688521454add8aa86fa40a3d0922 {
+                #map_1aa02df4477d46a4ac85319f968f30d1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -38,13 +38,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_90ed688521454add8aa86fa40a3d0922" ></div>
+            <div class="folium-map" id="map_1aa02df4477d46a4ac85319f968f30d1" ></div>
         
 </body>
 <script>    
     
-            var map_90ed688521454add8aa86fa40a3d0922 = L.map(
-                "map_90ed688521454add8aa86fa40a3d0922",
+            var map_1aa02df4477d46a4ac85319f968f30d1 = L.map(
+                "map_1aa02df4477d46a4ac85319f968f30d1",
                 {
                     center: [-20.214066, -70.152465],
                     crs: L.CRS.EPSG3857,
@@ -58,779 +58,798 @@
 
         
     
-            var tile_layer_2e20393320e44b8eae4aa8911a37ba96 = L.tileLayer(
+            var tile_layer_ceb1c26085de4659b4ef2e95d25149d7 = L.tileLayer(
                 "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
                 {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_90ed688521454add8aa86fa40a3d0922);
+            ).addTo(map_1aa02df4477d46a4ac85319f968f30d1);
         
     
-            var marker_cluster_2dcc0d059840443ea75cb8aa7c168aca = L.markerClusterGroup(
+            var marker_cluster_7c5941b502db4e8aa6c58323481eccf0 = L.markerClusterGroup(
                 {}
             );
-            map_90ed688521454add8aa86fa40a3d0922.addLayer(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            map_1aa02df4477d46a4ac85319f968f30d1.addLayer(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-            var marker_fa69df7b25ab45ce8e94f678e605782b = L.marker(
+            var marker_68d2b9953ccc495d9d26e273a7d1a21e = L.marker(
+                [-20.447, -68.956],
+                {"clusteredMarker": true}
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
+        
+    
+        var popup_2cb414e1a2824b46b59ba94916774f3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b1c24375b1e4d73beaf99ffb7b1c9a7 = $(`<div id="html_8b1c24375b1e4d73beaf99ffb7b1c9a7" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 23:09:11<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 96.4 <strong>Referencia:</strong> 39 km al E de Pica</div>`)[0];
+            popup_2cb414e1a2824b46b59ba94916774f3a.setContent(html_8b1c24375b1e4d73beaf99ffb7b1c9a7);
+        
+
+        marker_68d2b9953ccc495d9d26e273a7d1a21e.bindPopup(popup_2cb414e1a2824b46b59ba94916774f3a)
+        ;
+
+        
+    
+    
+            var marker_258b1fad293f4e6eb0a8dfdac0b1cf17 = L.marker(
                 [-21.108, -68.97],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_f48f09762ce5415da26d8a02477d48ad = L.popup({"maxWidth": "100%"});
+        var popup_b1bc4e99bc234a2881386b0cbe61aee3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ad7a2668b893432988add26ea32d9d82 = $(`<div id="html_ad7a2668b893432988add26ea32d9d82" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 17:46:13<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 103.0 <strong>Referencia:</strong> 45 km al SO de Mina Collahuasi</div>`)[0];
-            popup_f48f09762ce5415da26d8a02477d48ad.setContent(html_ad7a2668b893432988add26ea32d9d82);
+            var html_546c2f96850d45e787eef7f3e349491d = $(`<div id="html_546c2f96850d45e787eef7f3e349491d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 17:46:13<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 103.0 <strong>Referencia:</strong> 45 km al SO de Mina Collahuasi</div>`)[0];
+            popup_b1bc4e99bc234a2881386b0cbe61aee3.setContent(html_546c2f96850d45e787eef7f3e349491d);
         
 
-        marker_fa69df7b25ab45ce8e94f678e605782b.bindPopup(popup_f48f09762ce5415da26d8a02477d48ad)
+        marker_258b1fad293f4e6eb0a8dfdac0b1cf17.bindPopup(popup_b1bc4e99bc234a2881386b0cbe61aee3)
         ;
 
         
     
     
-            var marker_8a7ead6db5994c19a2e3ada68f83f7e0 = L.marker(
+            var marker_716a20fd321440bc91e5e499c53644e8 = L.marker(
                 [-20.843, -69.083],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_c080a83c82884052a3ad3624adc12b53 = L.popup({"maxWidth": "100%"});
+        var popup_7569349fc9ff448abc0c91c1f77a17e0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_abd83fc305494dd688d2454420b0110d = $(`<div id="html_abd83fc305494dd688d2454420b0110d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 13:30:50<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 109.5 <strong>Referencia:</strong> 44 km al O de Mina Collahuasi</div>`)[0];
-            popup_c080a83c82884052a3ad3624adc12b53.setContent(html_abd83fc305494dd688d2454420b0110d);
+            var html_3bc9d5b7fe7b4bfa804ec61705c6d7ea = $(`<div id="html_3bc9d5b7fe7b4bfa804ec61705c6d7ea" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 13:30:50<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 109.5 <strong>Referencia:</strong> 44 km al O de Mina Collahuasi</div>`)[0];
+            popup_7569349fc9ff448abc0c91c1f77a17e0.setContent(html_3bc9d5b7fe7b4bfa804ec61705c6d7ea);
         
 
-        marker_8a7ead6db5994c19a2e3ada68f83f7e0.bindPopup(popup_c080a83c82884052a3ad3624adc12b53)
+        marker_716a20fd321440bc91e5e499c53644e8.bindPopup(popup_7569349fc9ff448abc0c91c1f77a17e0)
         ;
 
         
     
     
-            var marker_cfc01eb41254441f9f4c78525c80edc2 = L.marker(
+            var marker_d022833d32434c1ba854a08269c07b9b = L.marker(
                 [-21.195, -68.512],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_86d91f015b9d4eb3b0ae4e3050a5e9f6 = L.popup({"maxWidth": "100%"});
+        var popup_891f925e4f5949e188991d3fd39f9e6d = L.popup({"maxWidth": "100%"});
 
         
-            var html_33b872b903b141c59eeb0ecb8266d3d2 = $(`<div id="html_33b872b903b141c59eeb0ecb8266d3d2" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 13:08:33<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 134.0 <strong>Referencia:</strong> 27 km al O de Ollagüe</div>`)[0];
-            popup_86d91f015b9d4eb3b0ae4e3050a5e9f6.setContent(html_33b872b903b141c59eeb0ecb8266d3d2);
+            var html_c93a2d5e6eda4195a605fd80bb79450d = $(`<div id="html_c93a2d5e6eda4195a605fd80bb79450d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 13:08:33<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 134.0 <strong>Referencia:</strong> 27 km al O de Ollagüe</div>`)[0];
+            popup_891f925e4f5949e188991d3fd39f9e6d.setContent(html_c93a2d5e6eda4195a605fd80bb79450d);
         
 
-        marker_cfc01eb41254441f9f4c78525c80edc2.bindPopup(popup_86d91f015b9d4eb3b0ae4e3050a5e9f6)
+        marker_d022833d32434c1ba854a08269c07b9b.bindPopup(popup_891f925e4f5949e188991d3fd39f9e6d)
         ;
 
         
     
     
-            var marker_6cbb2a2ba62d487987328da6c470621b = L.marker(
+            var marker_43e13e4510d249ea81e18f9561709805 = L.marker(
                 [-21.229, -68.923],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_834b86e4cbe1467e9a1bf6d2ccab78ef = L.popup({"maxWidth": "100%"});
+        var popup_24a1bb6d5dd84e25b0095d96dbc76e8c = L.popup({"maxWidth": "100%"});
 
         
-            var html_55e68b90b4f34cf2a367cb00e94cddab = $(`<div id="html_55e68b90b4f34cf2a367cb00e94cddab" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 03:16:08<br><strong>magnitud:</strong> 3.4<br><strong>Profundidad:</strong> 117.5 <strong>Referencia:</strong> 53 km al SO de Mina Collahuasi</div>`)[0];
-            popup_834b86e4cbe1467e9a1bf6d2ccab78ef.setContent(html_55e68b90b4f34cf2a367cb00e94cddab);
+            var html_f465a836e4994f7585c715306ef74fc4 = $(`<div id="html_f465a836e4994f7585c715306ef74fc4" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 03:16:08<br><strong>magnitud:</strong> 3.4<br><strong>Profundidad:</strong> 117.5 <strong>Referencia:</strong> 53 km al SO de Mina Collahuasi</div>`)[0];
+            popup_24a1bb6d5dd84e25b0095d96dbc76e8c.setContent(html_f465a836e4994f7585c715306ef74fc4);
         
 
-        marker_6cbb2a2ba62d487987328da6c470621b.bindPopup(popup_834b86e4cbe1467e9a1bf6d2ccab78ef)
+        marker_43e13e4510d249ea81e18f9561709805.bindPopup(popup_24a1bb6d5dd84e25b0095d96dbc76e8c)
         ;
 
         
     
     
-            var marker_f854a5d005c4406cb7fc2f64d12505c2 = L.marker(
+            var marker_0fa7e799c8da4dedb187a60df7207e1f = L.marker(
                 [-19.982, -69.139],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_730d1b14e2f84f45a1694f08af466b61 = L.popup({"maxWidth": "100%"});
+        var popup_46cabb8aacff49fd87841ff6a8d496e6 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3fdea4ec38624d3c82170b7afec8f32e = $(`<div id="html_3fdea4ec38624d3c82170b7afec8f32e" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 01:05:38<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 95.5 <strong>Referencia:</strong> 60 km al N de Pica</div>`)[0];
-            popup_730d1b14e2f84f45a1694f08af466b61.setContent(html_3fdea4ec38624d3c82170b7afec8f32e);
+            var html_01675843dfbe4b6fa1ecaec32e3b3f0a = $(`<div id="html_01675843dfbe4b6fa1ecaec32e3b3f0a" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-10 01:05:38<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 95.5 <strong>Referencia:</strong> 60 km al N de Pica</div>`)[0];
+            popup_46cabb8aacff49fd87841ff6a8d496e6.setContent(html_01675843dfbe4b6fa1ecaec32e3b3f0a);
         
 
-        marker_f854a5d005c4406cb7fc2f64d12505c2.bindPopup(popup_730d1b14e2f84f45a1694f08af466b61)
+        marker_0fa7e799c8da4dedb187a60df7207e1f.bindPopup(popup_46cabb8aacff49fd87841ff6a8d496e6)
         ;
 
         
     
     
-            var marker_12f7877efafa40bea26912d835a596ba = L.marker(
+            var marker_09c8bb4a48b8423ab4a15346c9af226f = L.marker(
                 [-19.962, -71.031],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_925d47649a3c4e37aa2c05eecca00b94 = L.popup({"maxWidth": "100%"});
+        var popup_69be6d5d556c42ea8617722f2d84f1a9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_bea7b7ff947647c0bf8e559fa77e2f05 = $(`<div id="html_bea7b7ff947647c0bf8e559fa77e2f05" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-09 22:30:16<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 31.1 <strong>Referencia:</strong> 95 km al SO de Pisagua</div>`)[0];
-            popup_925d47649a3c4e37aa2c05eecca00b94.setContent(html_bea7b7ff947647c0bf8e559fa77e2f05);
+            var html_f5848b739a024d96a1adb7d8b749a279 = $(`<div id="html_f5848b739a024d96a1adb7d8b749a279" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-09 22:30:16<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 31.1 <strong>Referencia:</strong> 95 km al SO de Pisagua</div>`)[0];
+            popup_69be6d5d556c42ea8617722f2d84f1a9.setContent(html_f5848b739a024d96a1adb7d8b749a279);
         
 
-        marker_12f7877efafa40bea26912d835a596ba.bindPopup(popup_925d47649a3c4e37aa2c05eecca00b94)
+        marker_09c8bb4a48b8423ab4a15346c9af226f.bindPopup(popup_69be6d5d556c42ea8617722f2d84f1a9)
         ;
 
         
     
     
-            var marker_6c41d2789ab94cbd95bc72241fd62554 = L.marker(
+            var marker_2dce9b034f62494790246c039be43f42 = L.marker(
                 [-19.904, -69.885],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_21a4cb70360f47ec8cc1cce8f17af7ad = L.popup({"maxWidth": "100%"});
+        var popup_8d46c0f729aa43419c9365aecaba7ac9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a6a819af9cff4b90b907e8bb1dbeb71c = $(`<div id="html_a6a819af9cff4b90b907e8bb1dbeb71c" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-09 17:10:58<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 53.2 <strong>Referencia:</strong> 41 km al N de Pozo Almonte</div>`)[0];
-            popup_21a4cb70360f47ec8cc1cce8f17af7ad.setContent(html_a6a819af9cff4b90b907e8bb1dbeb71c);
+            var html_075f5c2eaba846bb83fa11ea788d7c02 = $(`<div id="html_075f5c2eaba846bb83fa11ea788d7c02" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-09 17:10:58<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 53.2 <strong>Referencia:</strong> 41 km al N de Pozo Almonte</div>`)[0];
+            popup_8d46c0f729aa43419c9365aecaba7ac9.setContent(html_075f5c2eaba846bb83fa11ea788d7c02);
         
 
-        marker_6c41d2789ab94cbd95bc72241fd62554.bindPopup(popup_21a4cb70360f47ec8cc1cce8f17af7ad)
+        marker_2dce9b034f62494790246c039be43f42.bindPopup(popup_8d46c0f729aa43419c9365aecaba7ac9)
         ;
 
         
     
     
-            var marker_6b7bdaa736954466af27884a32232a02 = L.marker(
+            var marker_ce171fdaa592420e824a7abc14e4c397 = L.marker(
                 [-21.38, -68.762],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_40db4d8e1c034b678daba2efe82a6982 = L.popup({"maxWidth": "100%"});
+        var popup_31981d07a89f42be8b4a835583490560 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ec365e590e4e4050a5459cc60147066f = $(`<div id="html_ec365e590e4e4050a5459cc60147066f" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-09 04:25:18<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 117.3 <strong>Referencia:</strong> 55 km al O de Ollagüe</div>`)[0];
-            popup_40db4d8e1c034b678daba2efe82a6982.setContent(html_ec365e590e4e4050a5459cc60147066f);
+            var html_88383d5e17994d90a4bb70d8650469b9 = $(`<div id="html_88383d5e17994d90a4bb70d8650469b9" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-09 04:25:18<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 117.3 <strong>Referencia:</strong> 55 km al O de Ollagüe</div>`)[0];
+            popup_31981d07a89f42be8b4a835583490560.setContent(html_88383d5e17994d90a4bb70d8650469b9);
         
 
-        marker_6b7bdaa736954466af27884a32232a02.bindPopup(popup_40db4d8e1c034b678daba2efe82a6982)
+        marker_ce171fdaa592420e824a7abc14e4c397.bindPopup(popup_31981d07a89f42be8b4a835583490560)
         ;
 
         
     
     
-            var marker_35fd144f7be4405d808a5a4d8c47d922 = L.marker(
+            var marker_a66a61ceefd647898ff15863af4ab060 = L.marker(
                 [-20.289, -69.304],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_44abb7e874364905a0e3dfa22ef52bb4 = L.popup({"maxWidth": "100%"});
+        var popup_98920007e32946d08cc6e5b165042991 = L.popup({"maxWidth": "100%"});
 
         
-            var html_89c7a9bc26b7419986ca4573b0c00796 = $(`<div id="html_89c7a9bc26b7419986ca4573b0c00796" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-08 18:05:13<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 89.6 <strong>Referencia:</strong> 23 km al N de Pica</div>`)[0];
-            popup_44abb7e874364905a0e3dfa22ef52bb4.setContent(html_89c7a9bc26b7419986ca4573b0c00796);
+            var html_effef206e7c2434781574b496d8c256a = $(`<div id="html_effef206e7c2434781574b496d8c256a" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-08 18:05:13<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 89.6 <strong>Referencia:</strong> 23 km al N de Pica</div>`)[0];
+            popup_98920007e32946d08cc6e5b165042991.setContent(html_effef206e7c2434781574b496d8c256a);
         
 
-        marker_35fd144f7be4405d808a5a4d8c47d922.bindPopup(popup_44abb7e874364905a0e3dfa22ef52bb4)
+        marker_a66a61ceefd647898ff15863af4ab060.bindPopup(popup_98920007e32946d08cc6e5b165042991)
         ;
 
         
     
     
-            var marker_8521651cbaf141d1bbb325f2ff1b9446 = L.marker(
+            var marker_4e737d31a1e8474fb422d203a1784832 = L.marker(
                 [-21.033, -68.982],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_9ffa005c962c4d8896d5ddb206667cbd = L.popup({"maxWidth": "100%"});
+        var popup_72862e7402b848fb8d091fc63a0db145 = L.popup({"maxWidth": "100%"});
 
         
-            var html_86564d7cc018441ca91227fb3db6d990 = $(`<div id="html_86564d7cc018441ca91227fb3db6d990" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-08 16:26:58<br><strong>magnitud:</strong> 3.2<br><strong>Profundidad:</strong> 110.3 <strong>Referencia:</strong> 41 km al SO de Mina Collahuasi</div>`)[0];
-            popup_9ffa005c962c4d8896d5ddb206667cbd.setContent(html_86564d7cc018441ca91227fb3db6d990);
+            var html_6bdf5aee410d4a409ced2df36626d535 = $(`<div id="html_6bdf5aee410d4a409ced2df36626d535" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-08 16:26:58<br><strong>magnitud:</strong> 3.2<br><strong>Profundidad:</strong> 110.3 <strong>Referencia:</strong> 41 km al SO de Mina Collahuasi</div>`)[0];
+            popup_72862e7402b848fb8d091fc63a0db145.setContent(html_6bdf5aee410d4a409ced2df36626d535);
         
 
-        marker_8521651cbaf141d1bbb325f2ff1b9446.bindPopup(popup_9ffa005c962c4d8896d5ddb206667cbd)
+        marker_4e737d31a1e8474fb422d203a1784832.bindPopup(popup_72862e7402b848fb8d091fc63a0db145)
         ;
 
         
     
     
-            var marker_cee5ae276a7a4d84adf6a55281b933c9 = L.marker(
+            var marker_0ddfc59755534a8fa1b847c2c68a6042 = L.marker(
                 [-21.411, -69.623],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_5db25f4bedf44ab9831397d80e3782a3 = L.popup({"maxWidth": "100%"});
+        var popup_dae28d6e255a45e980af567331023ace = L.popup({"maxWidth": "100%"});
 
         
-            var html_703ea31b37a74e689dd24d3e8fb601b3 = $(`<div id="html_703ea31b37a74e689dd24d3e8fb601b3" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-08 15:48:21<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 67.0 <strong>Referencia:</strong> 29 km al N de Quillagua</div>`)[0];
-            popup_5db25f4bedf44ab9831397d80e3782a3.setContent(html_703ea31b37a74e689dd24d3e8fb601b3);
+            var html_0930e268efa24b1e8c77933af958b931 = $(`<div id="html_0930e268efa24b1e8c77933af958b931" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-08 15:48:21<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 67.0 <strong>Referencia:</strong> 29 km al N de Quillagua</div>`)[0];
+            popup_dae28d6e255a45e980af567331023ace.setContent(html_0930e268efa24b1e8c77933af958b931);
         
 
-        marker_cee5ae276a7a4d84adf6a55281b933c9.bindPopup(popup_5db25f4bedf44ab9831397d80e3782a3)
+        marker_0ddfc59755534a8fa1b847c2c68a6042.bindPopup(popup_dae28d6e255a45e980af567331023ace)
         ;
 
         
     
     
-            var marker_5d449882113b44a999b4e70becb6cabf = L.marker(
+            var marker_89cbd9ee24414e47bad6b07de310f26f = L.marker(
                 [-19.759, -69.13],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_05f21fb0847e4f599319e55ec28b1223 = L.popup({"maxWidth": "100%"});
+        var popup_fe8f0b5cdc8047b7b503d2f6abe6ec0e = L.popup({"maxWidth": "100%"});
 
         
-            var html_c713e05882ac4cf6977b052173840a0c = $(`<div id="html_c713e05882ac4cf6977b052173840a0c" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-07 21:26:15<br><strong>magnitud:</strong> 3.0<br><strong>Profundidad:</strong> 99.6 <strong>Referencia:</strong> 59 km al SE de Camiña</div>`)[0];
-            popup_05f21fb0847e4f599319e55ec28b1223.setContent(html_c713e05882ac4cf6977b052173840a0c);
+            var html_aecf5b7079ea43808ff47fa46838903a = $(`<div id="html_aecf5b7079ea43808ff47fa46838903a" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-07 21:26:15<br><strong>magnitud:</strong> 3.0<br><strong>Profundidad:</strong> 99.6 <strong>Referencia:</strong> 59 km al SE de Camiña</div>`)[0];
+            popup_fe8f0b5cdc8047b7b503d2f6abe6ec0e.setContent(html_aecf5b7079ea43808ff47fa46838903a);
         
 
-        marker_5d449882113b44a999b4e70becb6cabf.bindPopup(popup_05f21fb0847e4f599319e55ec28b1223)
+        marker_89cbd9ee24414e47bad6b07de310f26f.bindPopup(popup_fe8f0b5cdc8047b7b503d2f6abe6ec0e)
         ;
 
         
     
     
-            var marker_2f6f4519b71b4c918500bc6e3e069f3b = L.marker(
+            var marker_781c462ae0f44c7f9a2507fc0dd43ef3 = L.marker(
                 [-21.077, -68.96],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_d3fe5ad2e56b44daad69b0590bb39564 = L.popup({"maxWidth": "100%"});
+        var popup_5516b7da7e8644f3b5d803fe5102d8b9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0e282fac2cc94ebb9d590be440921d2d = $(`<div id="html_0e282fac2cc94ebb9d590be440921d2d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 21:27:51<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 110.0 <strong>Referencia:</strong> 42 km al SO de Mina Collahuasi</div>`)[0];
-            popup_d3fe5ad2e56b44daad69b0590bb39564.setContent(html_0e282fac2cc94ebb9d590be440921d2d);
+            var html_f60499709e9c4989a2fef76f756643f3 = $(`<div id="html_f60499709e9c4989a2fef76f756643f3" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 21:27:51<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 110.0 <strong>Referencia:</strong> 42 km al SO de Mina Collahuasi</div>`)[0];
+            popup_5516b7da7e8644f3b5d803fe5102d8b9.setContent(html_f60499709e9c4989a2fef76f756643f3);
         
 
-        marker_2f6f4519b71b4c918500bc6e3e069f3b.bindPopup(popup_d3fe5ad2e56b44daad69b0590bb39564)
+        marker_781c462ae0f44c7f9a2507fc0dd43ef3.bindPopup(popup_5516b7da7e8644f3b5d803fe5102d8b9)
         ;
 
         
     
     
-            var marker_8b8f37650c5b4a959bef34c1bbd4433c = L.marker(
+            var marker_6e0d2912f681400c8493f0f6417be34e = L.marker(
                 [-21.214, -70.385],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_ab91230698554039a0e68ed4b1a2273e = L.popup({"maxWidth": "100%"});
+        var popup_b997a532818a4684b2a3fd7ffdecb1be = L.popup({"maxWidth": "100%"});
 
         
-            var html_3981f3dc7f0442e9b1c12cb3792d204d = $(`<div id="html_3981f3dc7f0442e9b1c12cb3792d204d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 06:23:44<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 26.5 <strong>Referencia:</strong> 100 km al N de Tocopilla</div>`)[0];
-            popup_ab91230698554039a0e68ed4b1a2273e.setContent(html_3981f3dc7f0442e9b1c12cb3792d204d);
+            var html_27bf802a5cc14445b7643f0ee2cfffc8 = $(`<div id="html_27bf802a5cc14445b7643f0ee2cfffc8" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 06:23:44<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 26.5 <strong>Referencia:</strong> 100 km al N de Tocopilla</div>`)[0];
+            popup_b997a532818a4684b2a3fd7ffdecb1be.setContent(html_27bf802a5cc14445b7643f0ee2cfffc8);
         
 
-        marker_8b8f37650c5b4a959bef34c1bbd4433c.bindPopup(popup_ab91230698554039a0e68ed4b1a2273e)
+        marker_6e0d2912f681400c8493f0f6417be34e.bindPopup(popup_b997a532818a4684b2a3fd7ffdecb1be)
         ;
 
         
     
     
-            var marker_da80b9680a9a41f38b0df0fa671883c9 = L.marker(
+            var marker_5c70179006be4e82b07bd4481848454e = L.marker(
                 [-21.48, -68.428],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_be6da836f3b9425d900350f35749ae3f = L.popup({"maxWidth": "100%"});
+        var popup_7b1223231f5d499494b4150fbb2ab77a = L.popup({"maxWidth": "100%"});
 
         
-            var html_9489b7e7e5644ae4949bb358d038c639 = $(`<div id="html_9489b7e7e5644ae4949bb358d038c639" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 05:35:12<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 135.3 <strong>Referencia:</strong> 34 km al SO de Ollagüe</div>`)[0];
-            popup_be6da836f3b9425d900350f35749ae3f.setContent(html_9489b7e7e5644ae4949bb358d038c639);
+            var html_fc4c3b049918492988a6826cad3c5af7 = $(`<div id="html_fc4c3b049918492988a6826cad3c5af7" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 05:35:12<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 135.3 <strong>Referencia:</strong> 34 km al SO de Ollagüe</div>`)[0];
+            popup_7b1223231f5d499494b4150fbb2ab77a.setContent(html_fc4c3b049918492988a6826cad3c5af7);
         
 
-        marker_da80b9680a9a41f38b0df0fa671883c9.bindPopup(popup_be6da836f3b9425d900350f35749ae3f)
+        marker_5c70179006be4e82b07bd4481848454e.bindPopup(popup_7b1223231f5d499494b4150fbb2ab77a)
         ;
 
         
     
     
-            var marker_96c8c4e05ed14faeb64fcbd97acded60 = L.marker(
+            var marker_a5e7afe5eed74350a5d37da4b494b940 = L.marker(
                 [-20.158, -70.006],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_38893bfc3f7441c9afe752da1943dfab = L.popup({"maxWidth": "100%"});
+        var popup_827d432afc114b098d5041c53f2a2692 = L.popup({"maxWidth": "100%"});
 
         
-            var html_31c54550d6f14222807c5c52163aba77 = $(`<div id="html_31c54550d6f14222807c5c52163aba77" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 01:54:51<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 50.5 <strong>Referencia:</strong> 16 km al NE de Alto Hospicio</div>`)[0];
-            popup_38893bfc3f7441c9afe752da1943dfab.setContent(html_31c54550d6f14222807c5c52163aba77);
+            var html_4e22ff10bcb54b36a52e5efe9347aa70 = $(`<div id="html_4e22ff10bcb54b36a52e5efe9347aa70" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-06 01:54:51<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 50.5 <strong>Referencia:</strong> 16 km al NE de Alto Hospicio</div>`)[0];
+            popup_827d432afc114b098d5041c53f2a2692.setContent(html_4e22ff10bcb54b36a52e5efe9347aa70);
         
 
-        marker_96c8c4e05ed14faeb64fcbd97acded60.bindPopup(popup_38893bfc3f7441c9afe752da1943dfab)
+        marker_a5e7afe5eed74350a5d37da4b494b940.bindPopup(popup_827d432afc114b098d5041c53f2a2692)
         ;
 
         
     
     
-            var marker_21e85d06044c4581957dfe1e594df1b0 = L.marker(
+            var marker_800d9f8b7eca458a8cc157370b4ff6c4 = L.marker(
                 [-20.794, -69.159],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_5e1816bbf4504ab3bba24364409cd7e7 = L.popup({"maxWidth": "100%"});
+        var popup_9ce7775a68b042099b1715eed251e39e = L.popup({"maxWidth": "100%"});
 
         
-            var html_2c1fa60c377f4bc9be65779a1608178d = $(`<div id="html_2c1fa60c377f4bc9be65779a1608178d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-05 19:28:21<br><strong>magnitud:</strong> 3.4<br><strong>Profundidad:</strong> 96.1 <strong>Referencia:</strong> 38 km al SE de Pica</div>`)[0];
-            popup_5e1816bbf4504ab3bba24364409cd7e7.setContent(html_2c1fa60c377f4bc9be65779a1608178d);
+            var html_118aa0d128d4475b8c0dce8774e8677a = $(`<div id="html_118aa0d128d4475b8c0dce8774e8677a" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-05 19:28:21<br><strong>magnitud:</strong> 3.4<br><strong>Profundidad:</strong> 96.1 <strong>Referencia:</strong> 38 km al SE de Pica</div>`)[0];
+            popup_9ce7775a68b042099b1715eed251e39e.setContent(html_118aa0d128d4475b8c0dce8774e8677a);
         
 
-        marker_21e85d06044c4581957dfe1e594df1b0.bindPopup(popup_5e1816bbf4504ab3bba24364409cd7e7)
+        marker_800d9f8b7eca458a8cc157370b4ff6c4.bindPopup(popup_9ce7775a68b042099b1715eed251e39e)
         ;
 
         
     
     
-            var marker_eb504d7f4a7448148857c194eacf0bf7 = L.marker(
+            var marker_db2f6331ee8e44a6a039d04b73fc98d7 = L.marker(
                 [-21.297, -69.7],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_f4da4918376c475ca495ae96a0049c4a = L.popup({"maxWidth": "100%"});
+        var popup_08ce7ddefe95480f829ccd49ccba19af = L.popup({"maxWidth": "100%"});
 
         
-            var html_b819a2329f704b57992035ef5f2eb908 = $(`<div id="html_b819a2329f704b57992035ef5f2eb908" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-05 14:51:59<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 47.5 <strong>Referencia:</strong> 44 km al NO de Quillagua</div>`)[0];
-            popup_f4da4918376c475ca495ae96a0049c4a.setContent(html_b819a2329f704b57992035ef5f2eb908);
+            var html_1404bcfd0d824edc81f92225b52a8596 = $(`<div id="html_1404bcfd0d824edc81f92225b52a8596" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-05 14:51:59<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 47.5 <strong>Referencia:</strong> 44 km al NO de Quillagua</div>`)[0];
+            popup_08ce7ddefe95480f829ccd49ccba19af.setContent(html_1404bcfd0d824edc81f92225b52a8596);
         
 
-        marker_eb504d7f4a7448148857c194eacf0bf7.bindPopup(popup_f4da4918376c475ca495ae96a0049c4a)
+        marker_db2f6331ee8e44a6a039d04b73fc98d7.bindPopup(popup_08ce7ddefe95480f829ccd49ccba19af)
         ;
 
         
     
     
-            var marker_5f259ca7f8d24649b52bdbdecb66c642 = L.marker(
+            var marker_eb4c362623014bbf901e47bece77ea74 = L.marker(
                 [-20.438, -69.067],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_dcfed2916e8e4437ab7e40db2a8146f4 = L.popup({"maxWidth": "100%"});
+        var popup_38edb1da88b34fcfba537cefc5990cfa = L.popup({"maxWidth": "100%"});
 
         
-            var html_eb0472c640b94e788e4c50812a45ede9 = $(`<div id="html_eb0472c640b94e788e4c50812a45ede9" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-05 02:10:15<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 105.3 <strong>Referencia:</strong> 28 km al E de Pica</div>`)[0];
-            popup_dcfed2916e8e4437ab7e40db2a8146f4.setContent(html_eb0472c640b94e788e4c50812a45ede9);
+            var html_1054dec45e7f4450889fca12dc826c31 = $(`<div id="html_1054dec45e7f4450889fca12dc826c31" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-05 02:10:15<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 105.3 <strong>Referencia:</strong> 28 km al E de Pica</div>`)[0];
+            popup_38edb1da88b34fcfba537cefc5990cfa.setContent(html_1054dec45e7f4450889fca12dc826c31);
         
 
-        marker_5f259ca7f8d24649b52bdbdecb66c642.bindPopup(popup_dcfed2916e8e4437ab7e40db2a8146f4)
+        marker_eb4c362623014bbf901e47bece77ea74.bindPopup(popup_38edb1da88b34fcfba537cefc5990cfa)
         ;
 
         
     
     
-            var marker_9ff1bf25edba42548de304fdc271d270 = L.marker(
+            var marker_34939b108e414780bdec47388adea80d = L.marker(
                 [-21.113, -68.685],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_de002d8bdab2433ca57c4c13c34c6fc8 = L.popup({"maxWidth": "100%"});
+        var popup_09be90c883864ee8a0e170d673ad3d0c = L.popup({"maxWidth": "100%"});
 
         
-            var html_1b91f813bc634074b5445c2a68ad253e = $(`<div id="html_1b91f813bc634074b5445c2a68ad253e" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 23:17:26<br><strong>magnitud:</strong> 3.9<br><strong>Profundidad:</strong> 124.0 <strong>Referencia:</strong> 32 km al S de Mina Collahuasi</div>`)[0];
-            popup_de002d8bdab2433ca57c4c13c34c6fc8.setContent(html_1b91f813bc634074b5445c2a68ad253e);
+            var html_3863471d75d54d44ac426e8ed701116e = $(`<div id="html_3863471d75d54d44ac426e8ed701116e" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 23:17:26<br><strong>magnitud:</strong> 3.9<br><strong>Profundidad:</strong> 124.0 <strong>Referencia:</strong> 32 km al S de Mina Collahuasi</div>`)[0];
+            popup_09be90c883864ee8a0e170d673ad3d0c.setContent(html_3863471d75d54d44ac426e8ed701116e);
         
 
-        marker_9ff1bf25edba42548de304fdc271d270.bindPopup(popup_de002d8bdab2433ca57c4c13c34c6fc8)
+        marker_34939b108e414780bdec47388adea80d.bindPopup(popup_09be90c883864ee8a0e170d673ad3d0c)
         ;
 
         
     
     
-            var marker_4bd5cbe221964fd89032f1764ea06e57 = L.marker(
+            var marker_5ac90d9521ea40b7b10f764adc0d3306 = L.marker(
                 [-21.097, -68.915],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_34a759aa53634931bb78dde0652c4a40 = L.popup({"maxWidth": "100%"});
+        var popup_6b0564a745824f2ebeebc06ccead9ea7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_fd58db20c6154fe0bd08621ea47d0cb9 = $(`<div id="html_fd58db20c6154fe0bd08621ea47d0cb9" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 22:54:15<br><strong>magnitud:</strong> 3.1<br><strong>Profundidad:</strong> 108.6 <strong>Referencia:</strong> 40 km al SO de Mina Collahuasi</div>`)[0];
-            popup_34a759aa53634931bb78dde0652c4a40.setContent(html_fd58db20c6154fe0bd08621ea47d0cb9);
+            var html_e599fdfba8934522a03a9de3681f9958 = $(`<div id="html_e599fdfba8934522a03a9de3681f9958" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 22:54:15<br><strong>magnitud:</strong> 3.1<br><strong>Profundidad:</strong> 108.6 <strong>Referencia:</strong> 40 km al SO de Mina Collahuasi</div>`)[0];
+            popup_6b0564a745824f2ebeebc06ccead9ea7.setContent(html_e599fdfba8934522a03a9de3681f9958);
         
 
-        marker_4bd5cbe221964fd89032f1764ea06e57.bindPopup(popup_34a759aa53634931bb78dde0652c4a40)
+        marker_5ac90d9521ea40b7b10f764adc0d3306.bindPopup(popup_6b0564a745824f2ebeebc06ccead9ea7)
         ;
 
         
     
     
-            var marker_63904641ea6e46ad824cbcf0d6aa0732 = L.marker(
+            var marker_3eb9cd3caf0144c7bcc0ab0c2c603607 = L.marker(
                 [-19.498, -69.988],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_6ca2ca79fd3c406caee7b1e83b36900a = L.popup({"maxWidth": "100%"});
+        var popup_8c05047d530d4d4380a768d40b563516 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7b86716d54c6422fbb89da838675a370 = $(`<div id="html_7b86716d54c6422fbb89da838675a370" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 13:17:41<br><strong>magnitud:</strong> 3.0<br><strong>Profundidad:</strong> 83.0 <strong>Referencia:</strong> 26 km al NE de Pisagua</div>`)[0];
-            popup_6ca2ca79fd3c406caee7b1e83b36900a.setContent(html_7b86716d54c6422fbb89da838675a370);
+            var html_9c29e470edb945b3ae84c967ab00b3d6 = $(`<div id="html_9c29e470edb945b3ae84c967ab00b3d6" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 13:17:41<br><strong>magnitud:</strong> 3.0<br><strong>Profundidad:</strong> 83.0 <strong>Referencia:</strong> 26 km al NE de Pisagua</div>`)[0];
+            popup_8c05047d530d4d4380a768d40b563516.setContent(html_9c29e470edb945b3ae84c967ab00b3d6);
         
 
-        marker_63904641ea6e46ad824cbcf0d6aa0732.bindPopup(popup_6ca2ca79fd3c406caee7b1e83b36900a)
+        marker_3eb9cd3caf0144c7bcc0ab0c2c603607.bindPopup(popup_8c05047d530d4d4380a768d40b563516)
         ;
 
         
     
     
-            var marker_e6487fc41afd4bbd9fbf509a111b032b = L.marker(
+            var marker_8e41417c1828425591790a84e3535be5 = L.marker(
                 [-21.412, -68.779],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_0b34b0f02d26425ba7519cf2227ba6cc = L.popup({"maxWidth": "100%"});
+        var popup_5820cf0e18a542b4b89aa87d70aa1a35 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0c0a90e9671043b58e66cbbff10940b1 = $(`<div id="html_0c0a90e9671043b58e66cbbff10940b1" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 05:02:16<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 103.6 <strong>Referencia:</strong> 58 km al O de Ollagüe</div>`)[0];
-            popup_0b34b0f02d26425ba7519cf2227ba6cc.setContent(html_0c0a90e9671043b58e66cbbff10940b1);
+            var html_dd7d155849c0470089729c73595c7b06 = $(`<div id="html_dd7d155849c0470089729c73595c7b06" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 05:02:16<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 103.6 <strong>Referencia:</strong> 58 km al O de Ollagüe</div>`)[0];
+            popup_5820cf0e18a542b4b89aa87d70aa1a35.setContent(html_dd7d155849c0470089729c73595c7b06);
         
 
-        marker_e6487fc41afd4bbd9fbf509a111b032b.bindPopup(popup_0b34b0f02d26425ba7519cf2227ba6cc)
+        marker_8e41417c1828425591790a84e3535be5.bindPopup(popup_5820cf0e18a542b4b89aa87d70aa1a35)
         ;
 
         
     
     
-            var marker_bb14c354e5414fdfba58b7c5159d6cf7 = L.marker(
+            var marker_d148d7f00bb94715b91e6b34343708db = L.marker(
                 [-21.318, -69.933],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_8f05ab1634bc425ebc9f75ed9e446ec8 = L.popup({"maxWidth": "100%"});
+        var popup_887e9ecc9d074c289dfb0380eacf5c2f = L.popup({"maxWidth": "100%"});
 
         
-            var html_cc45a4c3d12c492d991aa21c89a184a5 = $(`<div id="html_cc45a4c3d12c492d991aa21c89a184a5" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 02:52:57<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 47.0 <strong>Referencia:</strong> 56 km al NO de Quillagua</div>`)[0];
-            popup_8f05ab1634bc425ebc9f75ed9e446ec8.setContent(html_cc45a4c3d12c492d991aa21c89a184a5);
+            var html_5be336523562469d88ac9979b6723f78 = $(`<div id="html_5be336523562469d88ac9979b6723f78" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 02:52:57<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 47.0 <strong>Referencia:</strong> 56 km al NO de Quillagua</div>`)[0];
+            popup_887e9ecc9d074c289dfb0380eacf5c2f.setContent(html_5be336523562469d88ac9979b6723f78);
         
 
-        marker_bb14c354e5414fdfba58b7c5159d6cf7.bindPopup(popup_8f05ab1634bc425ebc9f75ed9e446ec8)
+        marker_d148d7f00bb94715b91e6b34343708db.bindPopup(popup_887e9ecc9d074c289dfb0380eacf5c2f)
         ;
 
         
     
     
-            var marker_30a95dcc083e4061a7fae0ef4dcec32b = L.marker(
+            var marker_b018791a89044006add4f484119f972d = L.marker(
                 [-20.601, -68.982],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_1749e3f59db5413c8cf14f8b91c2ceaa = L.popup({"maxWidth": "100%"});
+        var popup_9c6c853cc5c140b7b0096fa57c7751d6 = L.popup({"maxWidth": "100%"});
 
         
-            var html_402d01d99e73406ba88c1b83351729a0 = $(`<div id="html_402d01d99e73406ba88c1b83351729a0" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 17:45:25<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 105.2 <strong>Referencia:</strong> 38 km al E de Pica</div>`)[0];
-            popup_1749e3f59db5413c8cf14f8b91c2ceaa.setContent(html_402d01d99e73406ba88c1b83351729a0);
+            var html_82b43f73cece405ea80e5f7ca1e94969 = $(`<div id="html_82b43f73cece405ea80e5f7ca1e94969" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 17:45:25<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 105.2 <strong>Referencia:</strong> 38 km al E de Pica</div>`)[0];
+            popup_9c6c853cc5c140b7b0096fa57c7751d6.setContent(html_82b43f73cece405ea80e5f7ca1e94969);
         
 
-        marker_30a95dcc083e4061a7fae0ef4dcec32b.bindPopup(popup_1749e3f59db5413c8cf14f8b91c2ceaa)
+        marker_b018791a89044006add4f484119f972d.bindPopup(popup_9c6c853cc5c140b7b0096fa57c7751d6)
         ;
 
         
     
     
-            var marker_42ea64c5e21040f98881f9b19166e1bd = L.marker(
+            var marker_68e1c3a45e42498895f3dad2b47cf412 = L.marker(
                 [-21.572, -68.62],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_8c647ce91382435d8f1f52024ce8431d = L.popup({"maxWidth": "100%"});
+        var popup_2cd32ab4721e414291378225e257e884 = L.popup({"maxWidth": "100%"});
 
         
-            var html_3752259fee364f2284222c77923cce3c = $(`<div id="html_3752259fee364f2284222c77923cce3c" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 16:50:50<br><strong>magnitud:</strong> 3.1<br><strong>Profundidad:</strong> 125.0 <strong>Referencia:</strong> 54 km al SO de Ollagüe</div>`)[0];
-            popup_8c647ce91382435d8f1f52024ce8431d.setContent(html_3752259fee364f2284222c77923cce3c);
+            var html_5bd0c9514e814785bcb0ff21a73ca63b = $(`<div id="html_5bd0c9514e814785bcb0ff21a73ca63b" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 16:50:50<br><strong>magnitud:</strong> 3.1<br><strong>Profundidad:</strong> 125.0 <strong>Referencia:</strong> 54 km al SO de Ollagüe</div>`)[0];
+            popup_2cd32ab4721e414291378225e257e884.setContent(html_5bd0c9514e814785bcb0ff21a73ca63b);
         
 
-        marker_42ea64c5e21040f98881f9b19166e1bd.bindPopup(popup_8c647ce91382435d8f1f52024ce8431d)
+        marker_68e1c3a45e42498895f3dad2b47cf412.bindPopup(popup_2cd32ab4721e414291378225e257e884)
         ;
 
         
     
     
-            var marker_e38150d1dabb4fb48618ee147871333b = L.marker(
+            var marker_03ac66711c5146d4bc0cd4237c27ce1f = L.marker(
                 [-19.497, -69.904],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_f3c04b1097ef45adb01f1aa2fa6bb916 = L.popup({"maxWidth": "100%"});
+        var popup_66fc36f722d94a3abc4459e2a280d656 = L.popup({"maxWidth": "100%"});
 
         
-            var html_09508178a5cb4f1295a5408f6acf3db0 = $(`<div id="html_09508178a5cb4f1295a5408f6acf3db0" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 13:17:42<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 44.7 <strong>Referencia:</strong> 34 km al E de Pisagua</div>`)[0];
-            popup_f3c04b1097ef45adb01f1aa2fa6bb916.setContent(html_09508178a5cb4f1295a5408f6acf3db0);
+            var html_34124b9adc6e478b934cbc3aff07b20d = $(`<div id="html_34124b9adc6e478b934cbc3aff07b20d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-04 13:17:42<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 44.7 <strong>Referencia:</strong> 34 km al E de Pisagua</div>`)[0];
+            popup_66fc36f722d94a3abc4459e2a280d656.setContent(html_34124b9adc6e478b934cbc3aff07b20d);
         
 
-        marker_e38150d1dabb4fb48618ee147871333b.bindPopup(popup_f3c04b1097ef45adb01f1aa2fa6bb916)
+        marker_03ac66711c5146d4bc0cd4237c27ce1f.bindPopup(popup_66fc36f722d94a3abc4459e2a280d656)
         ;
 
         
     
     
-            var marker_56e495e4bc8445008e32587f653781ff = L.marker(
+            var marker_78048dfc98d44dac9dd5f49d6f4bf98c = L.marker(
                 [-21.347, -68.734],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_e05dc4029010458aa126ad90b47946f3 = L.popup({"maxWidth": "100%"});
+        var popup_86186ad68a4d4b78bf250f43ac026e65 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0d17d4f8e98c41d3ae861ae5f0625187 = $(`<div id="html_0d17d4f8e98c41d3ae861ae5f0625187" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 16:12:19<br><strong>magnitud:</strong> 3.3<br><strong>Profundidad:</strong> 115.3 <strong>Referencia:</strong> 52 km al O de Ollagüe</div>`)[0];
-            popup_e05dc4029010458aa126ad90b47946f3.setContent(html_0d17d4f8e98c41d3ae861ae5f0625187);
+            var html_541b0a306568482d9ddca6999f4565e6 = $(`<div id="html_541b0a306568482d9ddca6999f4565e6" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 16:12:19<br><strong>magnitud:</strong> 3.3<br><strong>Profundidad:</strong> 115.3 <strong>Referencia:</strong> 52 km al O de Ollagüe</div>`)[0];
+            popup_86186ad68a4d4b78bf250f43ac026e65.setContent(html_541b0a306568482d9ddca6999f4565e6);
         
 
-        marker_56e495e4bc8445008e32587f653781ff.bindPopup(popup_e05dc4029010458aa126ad90b47946f3)
+        marker_78048dfc98d44dac9dd5f49d6f4bf98c.bindPopup(popup_86186ad68a4d4b78bf250f43ac026e65)
         ;
 
         
     
     
-            var marker_702d908cb8404f42abedc79a9e6282e0 = L.marker(
+            var marker_3b84bfb668574cf895c82c3b44fb9004 = L.marker(
                 [-21.103, -68.471],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_c2e417a902c74774b5d52c5dff29f453 = L.popup({"maxWidth": "100%"});
+        var popup_9630cc7d017d4ba586ae85c5d58a88c9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0aa5c1002798438ab5c8dba10c92fa47 = $(`<div id="html_0aa5c1002798438ab5c8dba10c92fa47" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 03:58:26<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 130.4 <strong>Referencia:</strong> 26 km al NO de Ollagüe</div>`)[0];
-            popup_c2e417a902c74774b5d52c5dff29f453.setContent(html_0aa5c1002798438ab5c8dba10c92fa47);
+            var html_bfa4bcf414b74dff9cd095aabc1518db = $(`<div id="html_bfa4bcf414b74dff9cd095aabc1518db" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 03:58:26<br><strong>magnitud:</strong> 2.8<br><strong>Profundidad:</strong> 130.4 <strong>Referencia:</strong> 26 km al NO de Ollagüe</div>`)[0];
+            popup_9630cc7d017d4ba586ae85c5d58a88c9.setContent(html_bfa4bcf414b74dff9cd095aabc1518db);
         
 
-        marker_702d908cb8404f42abedc79a9e6282e0.bindPopup(popup_c2e417a902c74774b5d52c5dff29f453)
+        marker_3b84bfb668574cf895c82c3b44fb9004.bindPopup(popup_9630cc7d017d4ba586ae85c5d58a88c9)
         ;
 
         
     
     
-            var marker_3130704f10134ea2986f4ecc217a2a4a = L.marker(
+            var marker_b516953b59be4e2ab254234aa9fa4477 = L.marker(
                 [-21.512, -68.832],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_c0a99910bc824c948b431b2ce3beb330 = L.popup({"maxWidth": "100%"});
+        var popup_6392b495d18a428b8a386cf30bdf3cef = L.popup({"maxWidth": "100%"});
 
         
-            var html_784bd908d4e14b34b4fb2db5b67bd7d9 = $(`<div id="html_784bd908d4e14b34b4fb2db5b67bd7d9" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 01:11:44<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 116.5 <strong>Referencia:</strong> 68 km al SO de Ollagüe</div>`)[0];
-            popup_c0a99910bc824c948b431b2ce3beb330.setContent(html_784bd908d4e14b34b4fb2db5b67bd7d9);
+            var html_edf3b9fdc87a47fabb454d54a070e6ea = $(`<div id="html_edf3b9fdc87a47fabb454d54a070e6ea" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-03 01:11:44<br><strong>magnitud:</strong> 2.9<br><strong>Profundidad:</strong> 116.5 <strong>Referencia:</strong> 68 km al SO de Ollagüe</div>`)[0];
+            popup_6392b495d18a428b8a386cf30bdf3cef.setContent(html_edf3b9fdc87a47fabb454d54a070e6ea);
         
 
-        marker_3130704f10134ea2986f4ecc217a2a4a.bindPopup(popup_c0a99910bc824c948b431b2ce3beb330)
+        marker_b516953b59be4e2ab254234aa9fa4477.bindPopup(popup_6392b495d18a428b8a386cf30bdf3cef)
         ;
 
         
     
     
-            var marker_4fa51bfbeace4b4b82536139225b0da1 = L.marker(
+            var marker_fb7d3b20be814e8d9297ca4e0b818c6b = L.marker(
                 [-20.166, -69.149],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_62010a97a9684876a3c380a430814b5b = L.popup({"maxWidth": "100%"});
+        var popup_b5124f86f01548d5aa2bcbc7f2f865f1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_a529e310c5fb47d0a1731a6a9361475d = $(`<div id="html_a529e310c5fb47d0a1731a6a9361475d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-02 23:13:40<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 96.5 <strong>Referencia:</strong> 41 km al NE de Pica</div>`)[0];
-            popup_62010a97a9684876a3c380a430814b5b.setContent(html_a529e310c5fb47d0a1731a6a9361475d);
+            var html_c53bbbbfb0bb480bac5d2777872dd6ba = $(`<div id="html_c53bbbbfb0bb480bac5d2777872dd6ba" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-02 23:13:40<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 96.5 <strong>Referencia:</strong> 41 km al NE de Pica</div>`)[0];
+            popup_b5124f86f01548d5aa2bcbc7f2f865f1.setContent(html_c53bbbbfb0bb480bac5d2777872dd6ba);
         
 
-        marker_4fa51bfbeace4b4b82536139225b0da1.bindPopup(popup_62010a97a9684876a3c380a430814b5b)
+        marker_fb7d3b20be814e8d9297ca4e0b818c6b.bindPopup(popup_b5124f86f01548d5aa2bcbc7f2f865f1)
         ;
 
         
     
     
-            var marker_cae09b5247c840d7a3a13aab0a2940c8 = L.marker(
+            var marker_2a5dc0f0d5404b47ba51c0748238e57f = L.marker(
                 [-21.387, -68.758],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_1bc2c3f707294ea1ae9160af0afe1a8e = L.popup({"maxWidth": "100%"});
+        var popup_247f5fe704794d63b24e9c90c5bcbc7f = L.popup({"maxWidth": "100%"});
 
         
-            var html_1ef9c99ef0534623b1b8301f5bcb3cb3 = $(`<div id="html_1ef9c99ef0534623b1b8301f5bcb3cb3" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-02 22:50:59<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 119.5 <strong>Referencia:</strong> 55 km al O de Ollagüe</div>`)[0];
-            popup_1bc2c3f707294ea1ae9160af0afe1a8e.setContent(html_1ef9c99ef0534623b1b8301f5bcb3cb3);
+            var html_0c7c880f1ff24b80ac63fb3b219a8ab6 = $(`<div id="html_0c7c880f1ff24b80ac63fb3b219a8ab6" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-02 22:50:59<br><strong>magnitud:</strong> 2.5<br><strong>Profundidad:</strong> 119.5 <strong>Referencia:</strong> 55 km al O de Ollagüe</div>`)[0];
+            popup_247f5fe704794d63b24e9c90c5bcbc7f.setContent(html_0c7c880f1ff24b80ac63fb3b219a8ab6);
         
 
-        marker_cae09b5247c840d7a3a13aab0a2940c8.bindPopup(popup_1bc2c3f707294ea1ae9160af0afe1a8e)
+        marker_2a5dc0f0d5404b47ba51c0748238e57f.bindPopup(popup_247f5fe704794d63b24e9c90c5bcbc7f)
         ;
 
         
     
     
-            var marker_a8851e8e0eaa4cadbeb21e209fed3d78 = L.marker(
+            var marker_d730979543fd42f99e5dfba331d67f5f = L.marker(
                 [-19.817, -69.564],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_14a197e0f22346b68a9101136dc20183 = L.popup({"maxWidth": "100%"});
+        var popup_260af9b871cc455f9c6d9a2468caaadf = L.popup({"maxWidth": "100%"});
 
         
-            var html_4c0261e130e246a7b7d8e330058949d5 = $(`<div id="html_4c0261e130e246a7b7d8e330058949d5" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-02 01:38:32<br><strong>magnitud:</strong> 3.1<br><strong>Profundidad:</strong> 105.3 <strong>Referencia:</strong> 54 km al NE de Pozo Almonte</div>`)[0];
-            popup_14a197e0f22346b68a9101136dc20183.setContent(html_4c0261e130e246a7b7d8e330058949d5);
+            var html_062a4200ea2f425e8c0d8d67bbd9c999 = $(`<div id="html_062a4200ea2f425e8c0d8d67bbd9c999" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-02 01:38:32<br><strong>magnitud:</strong> 3.1<br><strong>Profundidad:</strong> 105.3 <strong>Referencia:</strong> 54 km al NE de Pozo Almonte</div>`)[0];
+            popup_260af9b871cc455f9c6d9a2468caaadf.setContent(html_062a4200ea2f425e8c0d8d67bbd9c999);
         
 
-        marker_a8851e8e0eaa4cadbeb21e209fed3d78.bindPopup(popup_14a197e0f22346b68a9101136dc20183)
+        marker_d730979543fd42f99e5dfba331d67f5f.bindPopup(popup_260af9b871cc455f9c6d9a2468caaadf)
         ;
 
         
     
     
-            var marker_e9942a3a022644bbb24c3131eebc860b = L.marker(
+            var marker_2103a6e9769547c5846278ac7d3177ab = L.marker(
                 [-21.098, -68.863],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_77a1c15327ee468aaff4b0e7125c15fd = L.popup({"maxWidth": "100%"});
+        var popup_fb83e78b34b44202b2dbb05f2b5d28c6 = L.popup({"maxWidth": "100%"});
 
         
-            var html_876e6f6574524218ba0ce8188476c787 = $(`<div id="html_876e6f6574524218ba0ce8188476c787" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-01 19:57:18<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 109.1 <strong>Referencia:</strong> 37 km al SO de Mina Collahuasi</div>`)[0];
-            popup_77a1c15327ee468aaff4b0e7125c15fd.setContent(html_876e6f6574524218ba0ce8188476c787);
+            var html_f84acdcdb0754479966c3e0281c65e97 = $(`<div id="html_f84acdcdb0754479966c3e0281c65e97" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-01 19:57:18<br><strong>magnitud:</strong> 2.7<br><strong>Profundidad:</strong> 109.1 <strong>Referencia:</strong> 37 km al SO de Mina Collahuasi</div>`)[0];
+            popup_fb83e78b34b44202b2dbb05f2b5d28c6.setContent(html_f84acdcdb0754479966c3e0281c65e97);
         
 
-        marker_e9942a3a022644bbb24c3131eebc860b.bindPopup(popup_77a1c15327ee468aaff4b0e7125c15fd)
+        marker_2103a6e9769547c5846278ac7d3177ab.bindPopup(popup_fb83e78b34b44202b2dbb05f2b5d28c6)
         ;
 
         
     
     
-            var marker_e7f6f4db87a3439a9cd8f99dbf2182fd = L.marker(
+            var marker_9ebe0b22e9c549919efdbd7e04481c9c = L.marker(
                 [-20.827, -69.88],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_cdc56c5601fa4eff99796796beda1ea2 = L.popup({"maxWidth": "100%"});
+        var popup_75718febb2594a87a70cd43b142688a4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_8e0b1b963e6243ddb7d552f78bae9440 = $(`<div id="html_8e0b1b963e6243ddb7d552f78bae9440" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-01 12:29:30<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 59.9 <strong>Referencia:</strong> 64 km al S de Pozo Almonte</div>`)[0];
-            popup_cdc56c5601fa4eff99796796beda1ea2.setContent(html_8e0b1b963e6243ddb7d552f78bae9440);
+            var html_9c6bcbdd0c4f4794828793d4f2dd1bd5 = $(`<div id="html_9c6bcbdd0c4f4794828793d4f2dd1bd5" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-01 12:29:30<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 59.9 <strong>Referencia:</strong> 64 km al S de Pozo Almonte</div>`)[0];
+            popup_75718febb2594a87a70cd43b142688a4.setContent(html_9c6bcbdd0c4f4794828793d4f2dd1bd5);
         
 
-        marker_e7f6f4db87a3439a9cd8f99dbf2182fd.bindPopup(popup_cdc56c5601fa4eff99796796beda1ea2)
+        marker_9ebe0b22e9c549919efdbd7e04481c9c.bindPopup(popup_75718febb2594a87a70cd43b142688a4)
         ;
 
         
     
     
-            var marker_ef77368e03d34aff80c13d03a434b62a = L.marker(
+            var marker_73fa517158404f61a1360b08b2b022e6 = L.marker(
                 [-19.977, -68.974],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_9f5f6de0f0444cf4bae1d10b92cafd56 = L.popup({"maxWidth": "100%"});
+        var popup_412318c3a7e446eda9e8a2d7c4439166 = L.popup({"maxWidth": "100%"});
 
         
-            var html_56b2cd5258c4431c8769cf03713cfbd2 = $(`<div id="html_56b2cd5258c4431c8769cf03713cfbd2" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-01 02:01:42<br><strong>magnitud:</strong> 3.0<br><strong>Profundidad:</strong> 105.8 <strong>Referencia:</strong> 68 km al NE de Pica</div>`)[0];
-            popup_9f5f6de0f0444cf4bae1d10b92cafd56.setContent(html_56b2cd5258c4431c8769cf03713cfbd2);
+            var html_2539714c3aea408bb7e714f6b3e09afd = $(`<div id="html_2539714c3aea408bb7e714f6b3e09afd" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2022-01-01 02:01:42<br><strong>magnitud:</strong> 3.0<br><strong>Profundidad:</strong> 105.8 <strong>Referencia:</strong> 68 km al NE de Pica</div>`)[0];
+            popup_412318c3a7e446eda9e8a2d7c4439166.setContent(html_2539714c3aea408bb7e714f6b3e09afd);
         
 
-        marker_ef77368e03d34aff80c13d03a434b62a.bindPopup(popup_9f5f6de0f0444cf4bae1d10b92cafd56)
+        marker_73fa517158404f61a1360b08b2b022e6.bindPopup(popup_412318c3a7e446eda9e8a2d7c4439166)
         ;
 
         
     
     
-            var marker_ca04c03c74ef40d090dfe8b80955e763 = L.marker(
+            var marker_19aaf5edf1904d7c9e8659f54024cf12 = L.marker(
                 [-20.111, -70.029],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_8d09bdfc2ef54982abad2e06860586b6 = L.popup({"maxWidth": "100%"});
+        var popup_0e4724d2a6fd4f80bf4fa290c4cdaba1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7385b6c3a9ec446287c8ece0ab86d93d = $(`<div id="html_7385b6c3a9ec446287c8ece0ab86d93d" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2021-12-31 17:37:02<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 76.6 <strong>Referencia:</strong> 17 km al NE de Iquique</div>`)[0];
-            popup_8d09bdfc2ef54982abad2e06860586b6.setContent(html_7385b6c3a9ec446287c8ece0ab86d93d);
+            var html_7d8db0aa27594a309fa6ae141408cc17 = $(`<div id="html_7d8db0aa27594a309fa6ae141408cc17" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2021-12-31 17:37:02<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 76.6 <strong>Referencia:</strong> 17 km al NE de Iquique</div>`)[0];
+            popup_0e4724d2a6fd4f80bf4fa290c4cdaba1.setContent(html_7d8db0aa27594a309fa6ae141408cc17);
         
 
-        marker_ca04c03c74ef40d090dfe8b80955e763.bindPopup(popup_8d09bdfc2ef54982abad2e06860586b6)
+        marker_19aaf5edf1904d7c9e8659f54024cf12.bindPopup(popup_0e4724d2a6fd4f80bf4fa290c4cdaba1)
         ;
 
         
     
     
-            var marker_115b927c7c464dee834efd932663eec6 = L.marker(
+            var marker_7d8b50b0b3f74b9fa6caaba0c232a866 = L.marker(
                 [-20.117, -70.379],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_dda4162d936f4410a1d15081efad13d1 = L.popup({"maxWidth": "100%"});
+        var popup_13e9bb4254c043a9adfa198c885c1d7b = L.popup({"maxWidth": "100%"});
 
         
-            var html_2143b4ba2a704f01b031cc489d70ddef = $(`<div id="html_2143b4ba2a704f01b031cc489d70ddef" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2021-12-30 20:27:25<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 31.1 <strong>Referencia:</strong> 26 km al NO de Iquique</div>`)[0];
-            popup_dda4162d936f4410a1d15081efad13d1.setContent(html_2143b4ba2a704f01b031cc489d70ddef);
+            var html_7f246cb13d864ac5991e4bfc6c1a90c9 = $(`<div id="html_7f246cb13d864ac5991e4bfc6c1a90c9" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2021-12-30 20:27:25<br><strong>magnitud:</strong> 2.6<br><strong>Profundidad:</strong> 31.1 <strong>Referencia:</strong> 26 km al NO de Iquique</div>`)[0];
+            popup_13e9bb4254c043a9adfa198c885c1d7b.setContent(html_7f246cb13d864ac5991e4bfc6c1a90c9);
         
 
-        marker_115b927c7c464dee834efd932663eec6.bindPopup(popup_dda4162d936f4410a1d15081efad13d1)
+        marker_7d8b50b0b3f74b9fa6caaba0c232a866.bindPopup(popup_13e9bb4254c043a9adfa198c885c1d7b)
         ;
 
         
     
     
-            var marker_588dcfac9b7d409ea0ed6e89170ae91d = L.marker(
+            var marker_a79fb65aaae94d71b7f2f2a67d00fc1b = L.marker(
                 [-20.022, -69.142],
                 {"clusteredMarker": true}
-            ).addTo(marker_cluster_2dcc0d059840443ea75cb8aa7c168aca);
+            ).addTo(marker_cluster_7c5941b502db4e8aa6c58323481eccf0);
         
     
-        var popup_73f70e4652894359b771772f65c481f4 = L.popup({"maxWidth": "100%"});
+        var popup_5e6d84bdde374e048aa7b9c6eb9bcac7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_8246bda20db34c1b8ee4c8dca27b14ac = $(`<div id="html_8246bda20db34c1b8ee4c8dca27b14ac" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2021-12-30 19:03:27<br><strong>magnitud:</strong> 3.5<br><strong>Profundidad:</strong> 95.0 <strong>Referencia:</strong> 56 km al N de Pica</div>`)[0];
-            popup_73f70e4652894359b771772f65c481f4.setContent(html_8246bda20db34c1b8ee4c8dca27b14ac);
+            var html_e0b69986af20407bb9148ca5c9a8d87e = $(`<div id="html_e0b69986af20407bb9148ca5c9a8d87e" style="width: 100.0%; height: 100.0%;"><strong>Hora Local:</strong><br> 2021-12-30 19:03:27<br><strong>magnitud:</strong> 3.5<br><strong>Profundidad:</strong> 95.0 <strong>Referencia:</strong> 56 km al N de Pica</div>`)[0];
+            popup_5e6d84bdde374e048aa7b9c6eb9bcac7.setContent(html_e0b69986af20407bb9148ca5c9a8d87e);
         
 
-        marker_588dcfac9b7d409ea0ed6e89170ae91d.bindPopup(popup_73f70e4652894359b771772f65c481f4)
+        marker_a79fb65aaae94d71b7f2f2a67d00fc1b.bindPopup(popup_5e6d84bdde374e048aa7b9c6eb9bcac7)
         ;
 
         
     
     
-            var marker_fcf7f8dfd6a84823abc98e5154297428 = L.marker(
+            var marker_37e8301944944ef9ba9fe95dd2506651 = L.marker(
                 [-20.214066, -70.152465],
                 {}
-            ).addTo(map_90ed688521454add8aa86fa40a3d0922);
+            ).addTo(map_1aa02df4477d46a4ac85319f968f30d1);
         
     
-            var icon_a4af363a0df9450f9a271cbb1dda5850 = L.AwesomeMarkers.icon(
+            var icon_5957beffbad14ea7b67d090cdf3f9778 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
             );
-            marker_fcf7f8dfd6a84823abc98e5154297428.setIcon(icon_a4af363a0df9450f9a271cbb1dda5850);
+            marker_37e8301944944ef9ba9fe95dd2506651.setIcon(icon_5957beffbad14ea7b67d090cdf3f9778);
         
     
-        var popup_305c73ec88924594b4784b7457a844a2 = L.popup({"maxWidth": "100%"});
+        var popup_e0606005d87840a4b0908f3ac2912681 = L.popup({"maxWidth": "100%"});
 
         
-            var html_e97ecff14a96433c874265e1adeffdcb = $(`<div id="html_e97ecff14a96433c874265e1adeffdcb" style="width: 100.0%; height: 100.0%;"><i>Iquique</i></div>`)[0];
-            popup_305c73ec88924594b4784b7457a844a2.setContent(html_e97ecff14a96433c874265e1adeffdcb);
+            var html_f7979553c379406e8172f81dc1c8df9d = $(`<div id="html_f7979553c379406e8172f81dc1c8df9d" style="width: 100.0%; height: 100.0%;"><i>Iquique</i></div>`)[0];
+            popup_e0606005d87840a4b0908f3ac2912681.setContent(html_f7979553c379406e8172f81dc1c8df9d);
         
 
-        marker_fcf7f8dfd6a84823abc98e5154297428.bindPopup(popup_305c73ec88924594b4784b7457a844a2)
+        marker_37e8301944944ef9ba9fe95dd2506651.bindPopup(popup_e0606005d87840a4b0908f3ac2912681)
         ;
 
         
