@@ -9,7 +9,7 @@ on:
     - main
     
   schedule:
-  - cron: "*/10 * * * *"
+  - cron: "*/5 * * * *"
 
 jobs:
   build:
@@ -37,9 +37,8 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        python temblores.py
-        python graf3d.py
-        
+        python sismos.py
+                
     - name: Commit and push if it changed
       run: |
         git config user.name "brunooviedo"
